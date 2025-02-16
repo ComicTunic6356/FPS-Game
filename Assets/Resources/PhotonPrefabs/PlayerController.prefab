@@ -486,6 +486,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2323802760344637356}
   - component: {fileID: 7533681282060180694}
+  - component: {fileID: 8945238467156574939}
   m_Layer: 0
   m_Name: Pistol
   m_TagString: Untagged
@@ -523,7 +524,30 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemInfo: {fileID: 11400000, guid: 0dce3a0ce55b81145a64264557696412, type: 2}
   itemGameObject: {fileID: 3392342019756883932}
+  bulletImpactPrefab: {fileID: 4418170836565563644, guid: e4aadbd56bd06f840a87a7a2afa27929, type: 3}
   cam: {fileID: 2143287416108161790}
+--- !u!114 &8945238467156574939
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1074207493992625564}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa584fbee541324448dd18d8409c7a41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ObservedComponentsFoldoutOpen: 1
+  Group: 0
+  prefixField: -1
+  Synchronization: 3
+  OwnershipTransfer: 0
+  observableSearch: 2
+  ObservedComponents: []
+  sceneViewId: 0
+  InstantiationId: 0
+  isRuntimeInstantiated: 0
 --- !u!1 &1276473372002339465
 GameObject:
   m_ObjectHideFlags: 0
@@ -792,6 +816,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5653127593552128812}
   - component: {fileID: 7036533800415973462}
+  - component: {fileID: 137785416715539128}
   m_Layer: 0
   m_Name: Rifle
   m_TagString: Untagged
@@ -829,7 +854,30 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemInfo: {fileID: 11400000, guid: 5f0ce808039d47d49b714e9e0f6cc11e, type: 2}
   itemGameObject: {fileID: 3826625491379137173}
+  bulletImpactPrefab: {fileID: 4418170836565563644, guid: e4aadbd56bd06f840a87a7a2afa27929, type: 3}
   cam: {fileID: 2143287416108161790}
+--- !u!114 &137785416715539128
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2483539110236606718}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa584fbee541324448dd18d8409c7a41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ObservedComponentsFoldoutOpen: 1
+  Group: 0
+  prefixField: -1
+  Synchronization: 3
+  OwnershipTransfer: 0
+  observableSearch: 2
+  ObservedComponents: []
+  sceneViewId: 0
+  InstantiationId: 0
+  isRuntimeInstantiated: 0
 --- !u!1 &3392342019756883932
 GameObject:
   m_ObjectHideFlags: 0
@@ -1045,9 +1093,9 @@ Camera:
     y: 0
     width: 1
     height: 1
-  near clip plane: 0.3
+  near clip plane: 0.2
   far clip plane: 1000
-  field of view: 75
+  field of view: 103
   orthographic: 0
   orthographic size: 5
   m_Depth: 0
@@ -1922,7 +1970,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: cb38f7b8a46e3b046b3d7054a6a01155, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
